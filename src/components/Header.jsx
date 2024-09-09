@@ -7,7 +7,7 @@ import { LinkIcon, LogOut } from "lucide-react";
 
 const Header = () => {
   const navigate = useNavigate(); // provided by react-router-dom to navigate between routes and return a funtion
-  const user = true;
+  const user = false;
 
   return (
     <nav className="py-4 flex items-center justify-between">
