@@ -20,8 +20,8 @@ const Header = () => {
           <Button onClick={() => navigate("/auth")}>Login</Button>
         ) : (
           <DropdownMenu>
-            <DropdownMenuTrigger>
-              <Avatar className="w-10 rounded-full outline-none" >
+            <DropdownMenuTrigger className="w-10 rounded-full outline-none"  >
+              <Avatar>
                 <AvatarImage src="https://github.com/shadcn.png" />
                 <AvatarFallback>AP</AvatarFallback>
               </Avatar>
