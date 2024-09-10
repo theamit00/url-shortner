@@ -57,8 +57,8 @@ const Auth = () => {
               </div>
             </CardContent>
             <CardFooter>
-              <Button>
-                {false ? <PulseLoader color="#000000" size={10} /> : "Login"}
+              <Button className="w-full" >
+                {false ? <PulseLoader color="#030712" size={10} /> : "Login"}
               </Button>
             </CardFooter>
           </Card>
@@ -106,7 +106,9 @@ const Auth = () => {
               </div>
             </CardContent>
             <CardFooter>
-              <Button>Create Account</Button>
+              <Button className="w-full" >
+              {false ? <PulseLoader color="#030712" size={10} /> : "Create Account"}
+              </Button>
             </CardFooter>
           </Card>
         </TabsContent>
